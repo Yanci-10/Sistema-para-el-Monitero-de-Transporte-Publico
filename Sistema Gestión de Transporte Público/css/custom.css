@@ -1,0 +1,136 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header_section {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .header_section .navbar-brand img {
+    max-width: 50px;
+  }
+  
+  .header_section .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .header_section .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Slider styles */
+  .slider_section h1 {
+    font-size: 3em;
+    color: #fff;
+  }
+  
+  .slider_section p {
+    color: #fff;
+  }
+  
+  .slider_section .slider-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .slider_section .slider-link:hover {
+    background-color: #0056b3;
+  }
+  
+  /* About section styles */
+  .about_section {
+    background-color: #f9f9f9;
+  }
+  
+  .about_section .detail-box h6 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .about_section .custom_heading-container h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Service section styles */
+  .service_section .box {
+    border: 2px solid #007bff;
+  }
+  
+  .service_section .box .img-box img.img-2 {
+    display: none;
+  }
+  
+  .service_section .box:hover .img-box img.img-2 {
+    display: block;
+  }
+  
+  /* Portfolio section styles */
+  .portfolio_section .img-box {
+    position: relative;
+  }
+  
+  .portfolio_section .img-box a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* News section styles */
+  .news_section .box {
+    border: 1px solid #ddd;
+  }
+  
+  /* Subscribe section styles */
+  .subscribe_section form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .subscribe_section form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .subscribe_section form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contact section styles */
+  .contact_section .map-box {
+    border: 1px solid #ddd;
+  }
+  
+  .contact_section .contact_form-container input {
+    margin-bottom: 10px;
+  }
+  
+  /* Client section styles */
+  .client_section .box {
+    border: 1px solid #ddd;
+  }
+  
+  .client_section .client-id img {
+    max-width: 50px;
+  }
+  
+  /* Info section styles */
+  .info_section {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .info_section .info_social img {
+    max-width: 30px;
+  }
+  

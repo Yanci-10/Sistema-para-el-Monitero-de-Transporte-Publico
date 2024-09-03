@@ -1,0 +1,106 @@
+/* General Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-image: radial-gradient(circle, #b450b4, #9e42a5, #8c3b97, #7b3390, #6a2b8a, #582480, #4a1e76, #3b1a6c, #2d1463, #1e0f5a, #0f0a51, #000546);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    background-color: rgba(232, 212, 212, 0.2);
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #ffff; 
+  }
+  h3 {
+    color: #ffff; 
+  }
+
+  p {
+    color: #ffff; 
+  }
+
+  label{
+    color: #ffff
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"],
+  form input[type="time"],
+  form input[type="submit"],
+  form textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #b450b4; /* Rojo lila */
+    border-radius: 0.5rem;
+    background: rgba(173, 173, 173, .27);
+  }
+  
+  form input[type="submit"] {
+    background-color: #b450b4; /* Rojo lila */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #a53c9b; /* Lila oscuro */
+  }
+  
+  a {
+    color: #b450b4; /* Rojo lila */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #a53c9b; /* Lila oscuro */
+    text-decoration: underline;
+  }
+  
+  .message {
+    background-color: white;
+    color: #b450b4; /* Rojo lila */
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  #map {
+ 
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #bus-info {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  #bus-info h3 {
+    margin-top: 0;
+  }
+  

@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contenedor de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* Tarjetas de productos */
+.producto {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: calc(33.333% - 20px); /* Tres columnas con margen */
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    font-size: 20px;
+}
+
+.producto p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.producto a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5c5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.producto a:hover {
+    background-color: #484;
+}
+
+/* Estilo para tablas */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para enlaces */
+a {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #5c5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #484;
+}
+
+/* Media Queries para adaptar el diseño a diferentes tamaños de pantalla */
+
+/* Para tabletas (de 600px a 900px) */
+@media (max-width: 900px) {
+    .producto {
+        width: calc(50% - 20px); /* Dos columnas */
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+/* Para teléfonos móviles (hasta 600px) */
+@media (max-width: 600px) {
+    .producto {
+        width: calc(100% - 20px); /* Una columna */
+    }
+
+    table {
+        width: 100%;
+    }
+
+    a {
+        width: auto;
+    }
+}
